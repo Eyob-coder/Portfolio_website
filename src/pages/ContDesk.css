@@ -1,0 +1,113 @@
+.work-outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  width: 707px;
+  height: 523px;
+}
+.how-can-i1,
+.lets-get-to1,
+.your-contact-info1 {
+  position: absolute;
+  line-height: 100.5%;
+  font-weight: 900;
+  display: inline-block;
+}
+.lets-get-to1 {
+  top: 34px;
+  left: 31px;
+  font-size: var(--font-size-9xl);
+  width: 267px;
+  height: 41px;
+}
+.how-can-i1,
+.your-contact-info1 {
+  top: 206px;
+  left: 83px;
+  width: 208px;
+  height: 24px;
+}
+.your-contact-info1 {
+  top: 317px;
+  left: 58px;
+  width: 240px;
+}
+.enter-email-here1,
+.enter-phone-number {
+  left: 337px;
+  font-weight: 100;
+  color: var(--color-gray-1200);
+}
+.enter-email-here1 {
+  position: absolute;
+  top: 326px;
+  line-height: 100.5%;
+  display: inline-block;
+  width: 240px;
+  height: 24px;
+}
+.enter-phone-number {
+  top: 383px;
+  width: 306px;
+}
+.enter-phone-number,
+.other-options1,
+.regarding2 {
+  position: absolute;
+  line-height: 100.5%;
+  display: inline-block;
+  height: 24px;
+}
+.other-options1 {
+  top: 443px;
+  left: 337px;
+  font-weight: 100;
+  color: var(--color-gray-1200);
+  width: 323px;
+}
+.regarding2 {
+  top: 91px;
+  left: 143px;
+  font-weight: 900;
+  width: 137px;
+}
+.email-field-inputtextarea3,
+.help-field-inputtextarea1 {
+  position: absolute;
+  top: 206px;
+  left: 298px;
+}
+.email-field-inputtextarea3 {
+  top: 315px;
+}
+.other-field-inputtextarea,
+.phone-field-inputtextarea {
+  position: absolute;
+  top: 375px;
+  left: 298px;
+}
+.other-field-inputtextarea {
+  top: 435px;
+}
+.regard-field-inputtextarea1,
+.work-submit1 {
+  position: absolute;
+  top: 91px;
+  left: 298px;
+}
+.work-submit1 {
+  width: 147px;
+  top: 464px;
+  left: 98px;
+}
+.cont-desk {
+  position: relative;
+  width: 100%;
+  height: 523px;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--color-black);
+  font-family: var(--font-noto-sans-gujarati-ui);
+}
