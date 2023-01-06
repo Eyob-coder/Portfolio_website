@@ -1,8 +1,8 @@
 {
-  "homepage": "http://Eyob-coder.github.io/Portfolio_website",
+    "homepage": "http://Eyob-coder.github.io/Portfolio_website",
     "name": "alx-project",
     "version": "0.1.0",
-    "private": true,
+    "private": false,
     "dependencies": {
         "@ant-design/icons": "^4.7.0",
         "@emotion/react": "^11.7.1",
