@@ -1,8 +1,8 @@
 {
-    "homepage": "http://Eyob-coder.github.io/",
+    "homepage": "http://Eyob-coder.github.io/Portfolio_website",
     "name": "alx-project",
     "version": "0.1.0",
-    "private": false,
+    "private": true,
     "dependencies": {
         "@ant-design/icons": "^4.7.0",
         "@emotion/react": "^11.7.1",
@@ -16,9 +16,9 @@
         "@types/react": "^18.0.17",
         "@types/react-dom": "^18.0.6",
         "antd": "^4.17.4",
-        "bootstrap": "^5.1.3",
+        "bootstrap": "^5.2.3",
         "react": "^18.2.0",
-        "react-bootstrap": "^2.0.4",
+        "react-bootstrap": "^2.7.0",
         "react-dom": "^18.2.0",
         "react-router-dom": "^6.2.1",
         "react-scripts": "5.0.1",

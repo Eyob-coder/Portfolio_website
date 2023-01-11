@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { TextField } from "@mui/material";
 import { Button as BsButton } from "react-bootstrap";
 import OverlayDesk from "../components/OverlayDesk";
+import ContDesk from "./ContDesk"
 import PortalPopup from "../components/PortalPopup";
 import "./Homepage.css";
 
@@ -138,8 +139,8 @@ const Homepage = () => {
       <div className="homepage">
         <div className="about-box2" />
         <div className="about-box12" />
-        <img className="eth-king-icon1" alt="" src="../ethking1@2x.png" Loading='lazy' />
-        <img className="eth-queen-icon1" alt="" src="../ethqueen1@2x.png" Loading='lazy' />
+        <img className="eth-king-icon1" alt="" src="./ethking1@2x.png" Loading='lazy' />
+        <img className="eth-queen-icon1" alt="" src="./ethqueen1@2x.png" Loading='lazy' />
         <b className="who-is-eyob1">WHO IS EYOB?</b>
         <b className="ethiopia1">ETHIOPIA</b>
         <div className="a-little-bit1">A little bit about me</div>
@@ -166,10 +167,7 @@ const Homepage = () => {
             <span className="i-come-from1"> “</span>
             <b className="gofere1">GOFERE</b>
             <span className="i-come-from1">
-              ” is our signature haircut for men (mostly) which is a combed up
-              hair on all sides resembling that of a mane of an Alpha male lion,
-              symbolizing and reminding us of the lions we once were and the
-              lions we are meant to be: thus giving us unseen and unheard-of
+              ” is our signature haircut for men (mostly) which is a combed up hair on all sides resembling that of a mane of an Alpha male lion, symbolizing and reminding us of the lions we once were and the lions we are meant to be: thus giving us unseen and unheard-of
               confidence boost and sense of power.
             </span>
           </p>
@@ -177,14 +175,12 @@ const Homepage = () => {
             <span className="i-come-from1"> “</span>
             <b className="gofere1">SHURUBA</b>
             <span className="is-the-signature1">
-              ” is the signature hair style for the women in our country. which
-              basically is a continuous and carefully intertwined groups of hair
-              signifying how the women should unite the society.
+              ” is the signature hair style for the women in our country. which basically is a continuous and carefully intertwined groups of hair signifying how the women should unite the society.
             </span>
           </p>
         </div>
         <div className="meet1">LET’S MEET IN ETHIOPIA</div>
-        <img className="hepha-hero-icon1" alt="" src="../hephahero1@2x.png" Loading='lazy' />
+        <img className="hepha-hero-icon1" alt="" src="./hephahero1@2x.png" Loading='lazy' />
         <b className="designer1">DESIGNER</b>
         <div className="i-am-a1">I AM A CREATIVE</div>
         <b className="programmer1">PROGRAMMER</b>
@@ -205,16 +201,16 @@ const Homepage = () => {
           </b>
         </div>
         <div className="div31">
-          <img className="div1-4-icon3" alt="" src="../div1-43@2x.png" Loading='lazy' />
-          <img className="div1-1-icon3" alt="" src="../div1-43@2x.png" Loading='lazy' />
+          <img className="div1-4-icon3" alt="" src="./div1-43@2x.png" Loading='lazy' />
+          <img className="div1-1-icon3" alt="" src="./div1-43@2x.png" Loading='lazy' />
         </div>
         <div className="div21">
-          <img className="div1-4-icon4" alt="" src="../div1-44@2x.png" Loading='lazy' />
-          <img className="div1-1-icon4" alt="" src="../div1-44@2x.png" Loading='lazy' />
+          <img className="div1-4-icon4" alt="" src="./div1-44@2x.png" Loading='lazy' />
+          <img className="div1-1-icon4" alt="" src="./div1-44@2x.png" Loading='lazy' />
         </div>
         <div className="div11">
-          <img className="div1-4-icon3" alt="" src="../div1-43@2x.png" Loading='lazy' />
-          <img className="div1-1-icon3" alt="" src="../div1-43@2x.png" Loading='lazy' />
+          <img className="div1-4-icon3" alt="" src="./div1-43@2x.png" Loading='lazy' />
+          <img className="div1-1-icon3" alt="" src="./div1-43@2x.png" Loading='lazy' />
         </div>
         <div className="certificates7" data-scroll-to="cERTIFICATESText">
           CERTIFICATES
@@ -236,42 +232,38 @@ const Homepage = () => {
           </p>
           <p className="i-come-from-a-very-culturally1">
             <span>
-              I BELIEVE THAT THE CREATIONS THAT MAKE THE GREATEST RIPPLE EFFECT
-              THROUGHOUT HISTORY ARE ONES’ THOUGHT TO BE EITHER TO SILLY OR JUST
-              IMPOSSIBLE.
+              I BELIEVE THAT THE CREATIONS THAT MAKE THE GREATEST RIPPLE EFFECT THROUGHOUT HISTORY ARE ONES’ THOUGHT TO BE EITHER TO SILLY OR JUST IMPOSSIBLE.
             </span>
           </p>
           <p className="i-come-from-a-very-culturally1">
             <span>
-              AS A DESIGNER AND A SOFTWARE DEVELOPER, I PLAN TO TACKLE THE
-              BIGGEST AND SOMEHOW IMPOSSIBLE SEEMING PROBLEMS KNOWN TO THE
-              WORLD.
+              AS A DESIGNER AND A SOFTWARE DEVELOPER, I PLAN TO TACKLE THE BIGGEST AND SOMEHOW IMPOSSIBLE SEEMING PROBLEMS KNOWN TO MANKIND.
             </span>
           </p>
           <p className="and-i-shall2">
             <span>AND I SHALL.</span>
           </p>
         </div>
-        <img className="cer1-icon1" alt="" src="../cer11@2x.png" Loading='lazy' />
-        <img className="cer3-icon1" alt="" src="../cer31@2x.png" Loading='lazy' />
-        <img className="cer6-icon1" alt="" src="../cer61@2x.png" Loading='lazy' />
-        <img className="cer2-icon1" alt="" src="../cer21@2x.png" Loading='lazy' />
+        <img className="cer1-icon1" alt="" src="./cer11@2x.png" Loading='lazy' />
+        <img className="cer3-icon1" alt="" src="./cer31@2x.png" Loading='lazy' />
+        <img className="cer6-icon1" alt="" src="./cer61@2x.png" Loading='lazy' />
+        <img className="cer2-icon1" alt="" src="./cer21@2x.png" Loading='lazy' />
         <div className="cer71" />
-        <img className="cer5-icon1" alt="" src="../cer51@2x.png" Loading='lazy' />
-        <img className="cer4-icon1" alt="" src="../cer41@2x.png" Loading='lazy' />
-        <img className="pr-1-1-icon1" alt="" src="../pr111@2x.png" Loading='lazy' />
-        <img className="pr-2-1-icon1" alt="" src="../pr211@2x.png" Loading='lazy' />
-        <img className="pr-1-2-icon1" alt="" src="../pr121@2x.png" Loading='lazy' />
-        <img className="pr-2-2-icon1" alt="" src="../pr221@2x.png" Loading='lazy' />
-        <img className="pr-2-3-icon1" alt="" src="../pr231@2x.png" Loading='lazy' />
-        <img className="pr-1-3-icon1" alt="" src="../pr131@2x.png" Loading='lazy' />
+        <img className="cer5-icon1" alt="" src="./cer51@2x.png" Loading='lazy' />
+        <img className="cer4-icon1" alt="" src="./cer41@2x.png" Loading='lazy' />
+        <img className="pr-1-1-icon1" alt="" src="./pr111@2x.png" Loading='lazy' />
+        <img className="pr-2-1-icon1" alt="" src="./pr211@2x.png" Loading='lazy' />
+        <img className="pr-1-2-icon1" alt="" src="./pr121@2x.png" Loading='lazy' />
+        <img className="pr-2-2-icon1" alt="" src="./pr221@2x.png" Loading='lazy' />
+        <img className="pr-2-3-icon1" alt="" src="./pr231@2x.png" Loading='lazy' />
+        <img className="pr-1-3-icon1" alt="" src="./pr131@2x.png" Loading='lazy' />
         <img
           className="footer-img-icon"
           alt=""
-          src="../footerimg@2x.png"
+          src="./footerimg@2x.png"
           data-scroll-to="footerImgImage" Loading='lazy'
         />
-        <img className="info-athena-icon1" alt="" src="../infoathena1@2x.png" Loading='lazy' />
+        <img className="info-athena-icon1" alt="" src="./infoathena1@2x.png" Loading='lazy' />
         <div className="hero-more1">
           <span>I</span>
           <span className="a-designer-find">
@@ -300,7 +292,7 @@ const Homepage = () => {
           className="soft"
           href="mailto:oddjobera@gmail.com?subject=I am looking for a software developer"
           id="sware"
-          onClick={openOverlayDesk}
+          onClick={ContDesk}
         >
           <div className="component-1">
             <div className="component-1-child" />
@@ -396,28 +388,28 @@ const Homepage = () => {
           </div>
         </a>
         <a className="telegram1" href="Telegram/@J0bera" target="_blank">
-          <img className="group-icon2" alt="" src="../group2.svg" />
+          <img className="group-icon2" alt="" src="./group2.svg" />
         </a>
         <a
           className="facebook1"
           href="https://www.facebook.com/robera.berhanemeskel"
           target="_blank"
         >
-          <img className="vector-icon2" alt="" src="../vector2.svg" />
+          <img className="vector-icon2" alt="" src="./vector2.svg" />
         </a>
         <a
           className="twitter1"
           href="https://twitter.com/EyobBerhanemes1"
           target="_blank"
         >
-          <img className="group-icon3" alt="" src="../group3.svg" />
+          <img className="group-icon3" alt="" src="./group3.svg" />
         </a>
         <a
           className="instagram1"
           href="https://www.instagram.com/jobera_z_abyssinian/"
           target="_blank"
         >
-          <img className="group-icon3" alt="" src="../vector3.svg" />
+          <img className="group-icon3" alt="" src="./vector3.svg" />
         </a>
         <div className="footer-div" />
         <div className="copyright-parent">
@@ -425,12 +417,12 @@ const Homepage = () => {
           <img
             className="ricopyright-fill-icon1"
             alt=""
-            src="../ricopyrightfill1.svg"
+            src="./ricopyrightfill1.svg"
           />
         </div>
         <div className="tm1">
           <div className="jobera-designs1">Jobera_designs</div>
-          <img className="mditm-icon1" alt="" src="../mditm1.svg" />
+          <img className="mditm-icon1" alt="" src="./mditm1.svg" />
         </div>
         <BsButton className="feedback-submit1" variant="outline-primary">
           submit
@@ -439,7 +431,7 @@ const Homepage = () => {
         <img
           className="info-img-icon1"
           alt=""
-          src="../infoimg1@2x.png"
+          src="./infoimg1@2x.png"
           data-scroll-to="infoImgImage"
         />
         <div className="hero-contact" onClick={onHeroContactContainerClick}>
@@ -449,7 +441,7 @@ const Homepage = () => {
         <img
           className="logo-icon2"
           alt=""
-          src="../logo2@2x.png"
+          src="./logo2@2x.png"
           data-scroll-to="logoImage"
         />
         <div className="about" onClick={onABOUTContainerClick}>
